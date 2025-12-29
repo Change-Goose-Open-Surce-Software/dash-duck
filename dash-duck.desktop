@@ -1,0 +1,31 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Dash Duck
+GenericName=Cam
+GenericName[de]=Kamara
+Comment=A fake Cam with animals
+Comment[de]=Eine gefälschte Kamara die Ihr Gesicht durch Tiere ersetzt
+Keywords=Kamara;Cam;Duck;Goose;Change;Animal;Dash;Stream;Twitch;You;Tube;YT;
+TryExec=TierWallpaperApp
+Exec=TierWallpaperApp
+Icon=~/.dash-duck/asstest/icon/icon.png
+Terminal=false
+StartupNotify=false
+StartupWMClass=MyAppMainWindow
+Categories=Graphics;Video;
+Actions=NewWindow;OpenConfig;
+Hidden=false
+NoDisplay=false
+X-GNOME-Fullscreen=true
+X-GNOME-UsesNotifications=false
+X-KDE-SubstituteUID=false
+X-Desktop-Keywords=Kamara,Cam,Duck,Goose,Dash,Change,Animal,Video,Grafik
+X-Flatpak=true
+X-Snap=true
+X-Keywords=Kamara;Cam;Duck;Goose;Change;Animal;Dash;Stream;Twitch;You;Tube;YT;
+
+[Desktop Action NewWindow]
+Name=New Window
+Name[de]=Neues Fenster
+Exec=TierWallpaperApp
