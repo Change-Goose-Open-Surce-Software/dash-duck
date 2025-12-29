@@ -19,6 +19,7 @@ mkdir -p ~/.dash-duck/cache/preview
 mkdir -p ~/.dash-duck/cache/runtime
 mkdir -p ~/.dash-duck/src/ui
 mkdir -p ~/.dash-duck/app
+mkdir -p ~/.dash-duck/assets/icon
 
 #Hole install script
 wget -O ~/.dash-duck/bin/update.sh https://raw.githubusercontent.com/Change-Goose-Open-Surce-Software/dash-duck/main/install.sh
