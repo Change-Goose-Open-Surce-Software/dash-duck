@@ -29,10 +29,22 @@ chmod +x ~/.dash-duck/bin/update.sh
 
 #Hauptprogramm Instalieren
 wget -O ~/.dash-duck/src/main.cpp https://raw.githubusercontent.com/Change-Goose-Open-Surce-Software/dash-duck/main/main.cpp
+wget -O ~/.dash-duck/src/AddonLoader.cpp https://raw.githubusercontent.com/Change-Goose-Open-Surce-Software/dash-duck/main/Addonloader.cpp
+wget -O ~/.dash-duck/src/AddonLoader.h https://raw.githubusercontent.com/Change-Goose-Open-Surce-Software/dash-duck/main/AddonLoader.h
+wget -O ~/.dash-duck/src/MainWindow.cpp https://raw.githubusercontent.com/Change-Goose-Open-Surce-Software/dash-duck/main/MainWindow.cpp
+wget -O ~/.dash-duck/src/MainWindow.h https://raw.githubusercontent.com/Change-Goose-Open-Surce-Software/dash-duck/main/MainWindow.h
+
+#Hauptprogramm Ausführbar machen
+chomd +x ~/.dash-duck/src/main.cpp
+chomd +x ~/.dash-duck/src/AddonLoader.h
+chomd +x ~/.dash-duck/src/AddonLoader.cpp
+chomd +x ~/.dash-duck/src/MainWindow.cpp
+chomd +x ~/.dash-duck/src/MainWindow.h
 
 #Desktop Datei holen und ausführbar machen
 wget -O ~/.local/share/applications/dash-duck.desktop https://raw.githubusercontent.com/Change-Goose-Open-Surce-Software/dash-duck/main/dash-duck.desktop
 chmod +x ~/.local/share/applications/dash-duck.desktop
 update-desktop-database ~/.local/share/applications
 
-#Mehr folgt noch!
+#Compliere alle Datein Zusammen
+g++ ~/.dash-duck/src/*.cpp -I~/.dash-duck/src -o ~/.dash-duck/bin/dash-duck
