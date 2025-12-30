@@ -45,6 +45,7 @@ update-desktop-database ~/.local/share/applications
 
 #Compliere alle Datein Zusammen
 g++ ~/.dash-duck/src/*.cpp -I~/.dash-duck/src -o ~/.dash-duck/bin/dash-duck
+chmod +x ~/.dash-duck/bin/dash-duck
 
 #Instaliere Abhänigkeiten
 sudo apt update
@@ -53,3 +54,6 @@ sudo apt install v4l2loopback-dkms v4l2loopback-utils
 sudo modprobe v4l2loopback video_nr=10 card_label="DashDuckCam" exclusive_caps=1
 sudo apt install nlohmann-json3-dev
 sudo apt install gstreamer1.0-plugins-ugly gstreamer1.0-libav
+sudo apt install qtbase5-dev qt5-qmake
+
+echo Starten sie jetzt Dash Duck !
