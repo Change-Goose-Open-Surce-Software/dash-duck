@@ -32,11 +32,11 @@ wget -O ~/.dash-duck/src/MainWindow.cpp https://raw.githubusercontent.com/Change
 wget -O ~/.dash-duck/src/MainWindow.h https://raw.githubusercontent.com/Change-Goose-Open-Surce-Software/dash-duck/main/MainWindow.h
 
 #Hauptprogramm Ausführbar machen
-chomd +x ~/.dash-duck/src/main.cpp
-chomd +x ~/.dash-duck/src/AddonLoader.h
-chomd +x ~/.dash-duck/src/AddonLoader.cpp
-chomd +x ~/.dash-duck/src/MainWindow.cpp
-chomd +x ~/.dash-duck/src/MainWindow.h
+chmod +x ~/.dash-duck/src/main.cpp
+chmod +x ~/.dash-duck/src/AddonLoader.h
+chmod +x ~/.dash-duck/src/AddonLoader.cpp
+chmod +x ~/.dash-duck/src/MainWindow.cpp
+chmod +x ~/.dash-duck/src/MainWindow.h
 
 #Desktop Datei holen und ausführbar machen
 wget -O ~/.local/share/applications/dash-duck.desktop https://raw.githubusercontent.com/Change-Goose-Open-Surce-Software/dash-duck/main/dash-duck.desktop
