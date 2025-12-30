@@ -3,7 +3,7 @@ echo Hi,nice that you use Dash Duck a programm from Change Goose
 echo We hope that you like it !
 
 #Instaliere Abhänigkeiten
-sudo apt list *qtbase5-dev* *qtdeclarative5-dev* *libopencv-dev* *gstreamer* *ffmpeg* *v4l2loopback* *sox* *libpulse*
+sudo apt install *qtbase5-dev* *qtdeclarative5-dev* *libopencv-dev* *gstreamer* *ffmpeg* *v4l2loopback* *sox* *libpulse*
 
 #Erstelle fehlende verzeichnisse
 mkdir -p ~/.dash-duck/
