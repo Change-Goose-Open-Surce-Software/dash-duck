@@ -7,8 +7,8 @@ GenericName[de]=Kamara
 Comment=A fake Cam with animals
 Comment[de]=Eine gefälschte Kamara die Ihr Gesicht durch Tiere ersetzt
 Keywords=Kamara;Cam;Duck;Goose;Change;Animal;Dash;Stream;Twitch;You;Tube;YT;
-TryExec=TierWallpaperApp
-Exec=TierWallpaperApp
+TryExec=dash-duck
+Exec=dash-duck
 Icon=~/.dash-duck/asstest/icon/icon.png
 Terminal=false
 StartupNotify=false
@@ -28,4 +28,4 @@ X-Keywords=Kamara;Cam;Duck;Goose;Change;Animal;Dash;Stream;Twitch;You;Tube;YT;
 [Desktop Action NewWindow]
 Name=New Window
 Name[de]=Neues Fenster
-Exec=TierWallpaperApp
+Exec=dash-duck
